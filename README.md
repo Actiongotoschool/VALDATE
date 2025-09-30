@@ -138,4 +138,4 @@ This is primarily a learning project, but feel free to:
 
 **Enjoy building relationships with your favorite VALORANT agents!** 💕
 
-*"Remember: In VALORANT, teamwork makes the dream work - and that applies to relationships too!"*
+*THIS DESCRIPTION AND MOST OF THE DOCUMENTATIOJ IS AI GENERATED. NONE OF THE CODE IS*
