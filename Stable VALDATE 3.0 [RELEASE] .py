@@ -350,19 +350,47 @@ if __name__ == "__main__":
         clear_screen()
         print("\nInterrupted. Goodbye!")
 
-'''Alr so as most can tell im a VALORANT addict. So I started making a dating sim with the agents, mostly to practice python.
+'''
+VALDATE - VALORANT: Heartlines
+A fan-made dating simulation game featuring VALORANT agents
 
-This is a stable version of VALDATE 3.0, which has a title screen, a main menu, and a few agents to choose from. The game is still in development but this is a stable build.
-To add more agents, just add to the 'agents' dictionary. To add more activities, just add to the 'activities' dictionary.
+ABOUT:
+This is a stable version of VALDATE 3.0 featuring a complete text-based dating sim experience.
+Choose from 6 different VALORANT agents, each with unique personalities, dialogue, and preferences.
+Build affection through conversations and activities to unlock different endings!
 
-The menu system is cross-platform and should work on Windows, Linux, and MacOS. It uses ANSI escape codes for styling, but falls back gracefully if not supported.
+FEATURES:
+- Cross-platform menu system (Windows, Linux, macOS)
+- 6 unique agents with distinct personalities
+- Affection system with multiple endings
+- Activity system based on agent preferences
+- ANSI color support with graceful fallbacks
 
-semi-legal related DISCLAIMER: This is a fan project and is not affiliated with Riot Games. All characters and settings are the property of Riot Games. (blah blah blah JKJK please dont sue me riot I love your game)
+HOW TO MODIFY:
+- Add agents: Extend the 'agents' dictionary with new character data
+- Add activities: Extend the 'activities' dictionary by personality type
+- Modify affection values: Adjust point values in the interact() function
+- Change endings: Modify thresholds and messages in the ending() function
 
-other DISCLAIMER: Some of the code for the menu system is adapted from various sources on StackOverflow, as noted in the comments, I had a few bugs i asked others for help solving.
-    No code was directly copied, all code is written by me, but some logic and ideas are adapted from others.
-    and NO AI WAS USED TO WRITE THIS CODE. I REPEAT NO AI WAS USED TO WRITE THIS CODE. lets gooooo
+GAME FLOW:
+1. Title screen with options (Start/Credits/Exit)
+2. Agent selection menu
+3. Interaction loop (Compliment/Deep talk/Activity/Goodbye)
+4. Ending based on affection level
+5. Continue or return to menu
 
-Shoutout to: Mr Carr and the rest of my past compsci teachers for not just teaching me the skills but developing my passion for coding.
+For detailed gameplay instructions, see README.md and GAMEPLAY.md
 
-Alr I've probably missed something but its like 3am so im going to bed. Enjoy the code! - Ketomine'''
+LEGAL DISCLAIMER:
+This is a fan project and is not affiliated with Riot Games. 
+All VALORANT characters and settings are property of Riot Games.
+
+DEVELOPMENT NOTES:
+- Menu system adapted from various StackOverflow solutions
+- Cross-platform keyboard input handling
+- No AI assistance used in development
+- Written as a Python learning project
+
+Developer: Keaton Leung (Ketomine)
+Special thanks to computer science teachers and the programming community
+'''
